@@ -1,6 +1,6 @@
 use bevy::prelude::*;
 use bevy_rapier2d::prelude::*;
-use rapier_3debug::ColliderDebugRender;
+use rapier_debug::ColliderDebugRender;
 
 /// set up a simple 3D scene
 pub fn setup_environment(

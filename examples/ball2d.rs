@@ -1,7 +1,7 @@
 use bevy::prelude::*;
 use bevy_rapier2d::prelude::*;
 use bevy_inspector_egui::WorldInspectorPlugin;
-use rapier_3debug::{ColliderDebugRender, RapierDebugPlugin};
+use rapier_debug::{ColliderDebugRender, RapierDebugPlugin};
 
 mod common;
 
