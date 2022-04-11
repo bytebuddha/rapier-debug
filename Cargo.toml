@@ -1,0 +1,28 @@
+[package]
+name = "rapier-debug"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+dim3 = ["bevy_rapier3d"]
+dim2 = ["bevy_rapier2d"]
+
+[dependencies]
+bevy = "0.6.1"
+bevy_ecs = "0.6.1"
+bevy_app = "0.6.0"
+bevy_pbr = "0.6.1"
+bevy_core = "0.6.0"
+bevy_math = "0.6.0"
+bevy_utils = "0.6.0"
+bevy_asset = "0.6.0"
+bevy_render = "0.6.1"
+bevy_reflect = "0.6.0"
+bevy_transform = "0.6.0"
+bevy_core_pipeline = "0.6.0"
+bevy_rapier3d = { version = "0.12.1", optional = true }
+bevy_rapier2d = { version = "0.12.1", optional = true }
+
+[dev-dependencies]
+bevy = "0.6.1"
+bevy-inspector-egui = "0.9.0"
